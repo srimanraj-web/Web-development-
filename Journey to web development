@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<head>
+    <title>Journey to web development</title>
+   <link rel="stylesheet" href="style1.css">
+</head>
+<body>
+<div id="hb1">
+   <p id="p1" style="color:rgb(144, 133, 133); font-size: 20px;">  📍vadapalani,chennai &nbsp; &nbsp; &#9993;toptechdevelopers001@gmail.com </p>
+   
+</div>
+<div id="hb2">
+    <img src="logo-official.jpg" id="image">
+
+
+<nav>
+    <ul style="position: center">
+      <li><a href="#" class="active">Home</a></li>
+      <li><a href="#">About</a></li>
+      <li><a href="#">Services</a></li>
+      <li><a href="#">Projects</a></li>
+      <li><a href="#">Contact</a></li>
+      <li><a href="#">Enquiry</a></li>
+      <li><a href="#">Register</a></li>
+    </ul>
+</nav>
+<p style="color:#26d48c; font-style: normal; font-size:18px;">Have any questions?<br>📞Call:+91 80569 97651</p>
+</div>
+
+</body>

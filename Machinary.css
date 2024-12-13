@@ -1,0 +1,50 @@
+.bgimg{
+    background-image: url("tech.jpg");
+    background-size:cover;
+    height:100vh;
+}
+.container{
+    background-color: white;
+    color:#5752ab;
+    text-align: center;
+    font-family: "Arial";
+    position: absolute;
+    bottom:01px;
+    padding-bottom: 10px;
+    width:100%;
+}
+.heading{
+    color:#5752ab;
+    font-size:35px;
+    text-align: center;
+    font-family:"Bree serif";
+    font-weight: bolder;
+
+}
+p{
+    font-family: "Arial";
+    font-size: 20px;
+    color:#323f4b;
+    padding:10px;
+}
+#bt1{
+    text-align: center;
+    border-radius:8px;
+    padding: 10px;
+    border-color:rgb(124, 122, 122);
+    font-family: "Arial";
+    position:left;
+}
+#bt2{
+    text-align: center;
+    border-radius:8px;
+    padding: 10px;
+    border-color:rgb(120, 118, 118);
+    font-family: "Arial";
+    background-color: #5752ab;
+    color: white;
+}
+h1::first-letter{
+    font-style: Copperplate;
+    font-size: 38px;
+}

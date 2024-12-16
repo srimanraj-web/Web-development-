@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Royal Grand Hotel</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f4;
+            color: #fff;
+        }
+
+        .container {
+            position: relative;
+            max-width: 400px;
+            margin: 2rem auto;
+        }
+
+        .hotel-card {
+            position: relative;
+            border-radius: 8px;
+            overflow: hidden;
+            color: #fff;
+        }
+
+        .hotel-card img {
+            width: 100%;
+            display: block;
+        }
+
+        .info {
+            position: absolute;
+            bottom: 60px;
+            left: 50%;
+            transform: translateX(-50%);
+            background: rgba(0, 0, 0, 0.6);
+            padding: 1rem;
+            border-radius: 8px;
+            text-align: center;
+            width: 90%;
+        }
+
+        .info h1, .info p {
+            margin: 0;
+            padding: 0.2rem 0;
+        }
+
+        .info h1 {
+            font-size: 1.5rem;
+        }
+
+        .info p {
+            font-size: 1rem;
+        }
+
+        .price {
+            font-weight: bold;
+            font-size: 1.2rem;
+        }
+
+        .book-now {
+            position: absolute;
+            bottom: 10px;
+            left: 50%;
+            transform: translateX(-50%);
+            background-color: #ff6600;
+            color: #fff;
+            padding: 0.8rem 1.5rem;
+            border: none;
+            border-radius: 5px;
+            font-size: 1rem;
+            text-transform: uppercase;
+            cursor: pointer;
+            text-decoration: none;
+            text-align: center;
+        }
+
+        .book-now:hover {
+            background-color: #e05500;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="hotel-card">
+            <img src="https://d1tgh8fmlzexmh.cloudfront.net/ccbp-static-website/hotelbg.png" alt="Hotel Image">
+            <div class="info">
+                <h1>Royal Grand Hotel</h1>
+                <p>R.K Beach, Visakhapatnam</p>
+                <p class="price">1200 /-</p>
+            </div>
+            <a href="#" class="book-now">Book Now</a>
+        </div>
+    </div>
+</body>
+</html>

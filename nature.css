@@ -1,0 +1,28 @@
+.bg-image{
+  background-image: url(https://img.freepik.com/premium-psd/png-fantasy-flower-neon-art-illustration_53876-607319.jpg?ga=GA1.1.1536390894.1734494838&semt=ais_hybrid);
+  background-size: cover;
+  height:80vh;
+}
+
+img {
+  width: 200px;
+  height: 100px;
+  object-fit: cover; 
+  border: 2px solid #f3eaea;
+}
+body {
+  margin: 0;
+  font-family: 'Arial', sans-serif;
+  background-color: #0f9b8e;
+}
+
+
+
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 20px;
+  background: linear-gradient(90deg,#ff0080, #119b0f);
+  box-shadow: 0 4px 8px rgb(250, 244, 244);
+}
